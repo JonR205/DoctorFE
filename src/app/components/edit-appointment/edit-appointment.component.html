@@ -1,0 +1,13 @@
+<!-- <input type="number" #id (keyup)="updateID(id.value)"/> -->
+<label for="day"> Day: </label>
+<input id="day" type="text" #day (keyup)="updateday(day.value)">
+<label for="hour"> Hour: </label>
+<input id="hour" type="text" #timeHour (keyup)="updateTimeHour(timeHour.value)"/>
+<label for="minutes"> Minutes: </label>
+<input id="minutes" type="text" #timeMinutes (keyup)="updateTimeMinute(timeMinutes.value)"/>
+<label for="doctor"> Doctor: </label>
+<input id="doctor" type="text" #doctor (keyup)="updateDoctor(doctor.value)"/>
+<label for="patient"> Patient: </label>
+<input id="patient" type="text" #patient (keyup)="updatePatient(patient.value)"/>
+<button (click)="onApply()">Apply</button>
+<button (click)="onCancel()">Cancel</button>

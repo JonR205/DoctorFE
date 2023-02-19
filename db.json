@@ -1,0 +1,92 @@
+{
+  "doctors": [
+    {
+      "id": 0.6124680093643016,
+      "name": "doctor1"
+    },
+    {
+      "id": 0.16062563606406277,
+      "name": "Love"
+    },
+    {
+      "id": 0.9137195773232707,
+      "name": "house",
+      "email": "HouseMD",
+      "password": "9876"
+    },
+    {
+      "id": 0.12735100443929803,
+      "name": "Jonathan",
+      "email": "Rhine@youtube.com",
+      "password": "1234"
+    },
+    {
+      "id": 1.9137195773232707
+    },
+    {
+      "id": 2.9137195773232705
+    },
+    {
+      "id": 0.18848534367907033,
+      "name": "jon",
+      "email": "jon@jon.com",
+      "password": "1234"
+    },
+    {
+      "id": 0.8126015196674206,
+      "name": "Lew",
+      "email": "lew@lew.com",
+      "password": "1234"
+    }
+  ],
+  "loggedinuser": [
+    {
+      "id": 0.8126015196674206,
+      "name": "Lew",
+      "email": "lew@lew.com",
+      "password": "1234"
+    }
+  ],
+  "patients": [
+    {
+      "id": 2,
+      "name": "Patients1",
+      "email:": "P1",
+      "password": "1234"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 34,
+      "day": "Monday",
+      "timeHour": 1,
+      "timeMinutes": 30,
+      "doctor": "doctor1",
+      "patient": "Patients1"
+    },
+    {
+      "id": 0.3324843185775457,
+      "day": "d",
+      "timeHour": "f",
+      "timeMinutes": "df",
+      "doctor": "b",
+      "patient": "n"
+    },
+    {
+      "id": 0.4282526082942102,
+      "day": "Monday",
+      "timeHour": "5",
+      "timeMinutes": "30",
+      "doctor": "House",
+      "patient": "Jon"
+    },
+    {
+      "id": 0.9963451921491813,
+      "day": "Monday",
+      "timeHour": "5",
+      "timeMinutes": "30",
+      "doctor": "Love",
+      "patient": "Lewis"
+    }
+  ]
+}

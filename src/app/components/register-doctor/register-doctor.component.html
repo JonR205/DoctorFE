@@ -1,0 +1,8 @@
+<label for="name"> Name: </label>
+<input id="name" type="text" #name (keyup)="updatename(name.value)">
+<label for="email"> Email: </label>
+<input id="emailÏ" type="email" #email (keyup)="updateEmail(email.value)">
+<label for="password"> Password: </label>
+<input id="password" type="text" #password (keyup)="updatePassword(password.value)">
+<button (click)="onApply()">Apply</button>
+<button (click)="onCancel()">Cancel</button>

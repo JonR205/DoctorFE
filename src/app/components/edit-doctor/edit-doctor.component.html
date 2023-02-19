@@ -1,0 +1,6 @@
+<label for="name"> Name: </label>
+<input id="name" type="text" #name (keyup)="updatename(name.value)">
+<label for="email"> Email: </label>
+<input id="emailÏ" type="email" #email (keyup)="updateEmail(email.value)">
+<button (click)="onApply()">Apply</button>
+<button (click)="onCancel()">Cancel</button>
